@@ -1,0 +1,15 @@
+{
+  "labels": [
+    {
+      "column": "object_cross",
+      "display_name": "SOMETHING CROSSES THE EDGE",
+      "emoji": "⚠️",
+      "shortcut": "A",
+      "description": {
+        "description": "Indicates whether something is inside of the region of interest.",
+        "when_true": "Any object has a part in this area.",
+        "when_false": "Area is clean and no object occupies the space in the region."
+      }
+    }
+  ]
+}

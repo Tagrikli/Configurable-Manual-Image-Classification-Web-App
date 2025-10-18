@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --rp-base00: #191724;
+  --rp-base01: #1f1d2e;
+  --rp-base02: #26233a;
+  --rp-base03: #6e6a86;
+  --rp-base04: #908caa;
+  --rp-base05: #e0def4;
+  --rp-base06: #e0def4;
+  --rp-base07: #524f67;
+  --rp-base08: #eb6f92;
+  --rp-base09: #f6c177;
+  --rp-base0A: #ebbcba;
+  --rp-base0B: #31748f;
+  --rp-base0C: #9ccfd8;
+  --rp-base0D: #c4a7e7;
+  --rp-base0E: #f6c177;
+  --rp-base0F: #524f67;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 ease-out;
+    background-color: var(--rp-base00);
+    color: var(--rp-base05);
+  }
+
+  a {
+    color: var(--rp-base0D);
+  }
+
+  button {
+    color: inherit;
+  }
+}
